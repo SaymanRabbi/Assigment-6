@@ -26,7 +26,7 @@ const sum1= day*100;
 document.write(`Your Bil was ${sum1} Tk💸💸` + "<br>");
     }
 
-if (11<=day){
+if (11<=day && 20>=day){
 const sum2 = ((day-10)*80) + 1000;
 document.write(`Your Bill Was ${sum2} Tk💸💸` + "<br>")
 }
@@ -37,6 +37,6 @@ document.write(`Your Bill Was ${sum3} Tk💸💸` + "<br>")
 }
 }
     
-billCheck(9);
+billCheck(21);
 
 // --end--
