@@ -8,7 +8,7 @@ const gfNaiAmr = function (mobile,laptop,watch){
     const total = mobile+laptop+watch;
     return total;
 }
-const total4=gfNaiAmr(5000,2000,2000);
+const total4=gfNaiAmr(8000,2000,2000);
 document.write(`Your Total Bill Was = ${total4} Tk💸💸` + "<br>" + "<br>");
 // -----end---
 
@@ -16,12 +16,12 @@ document.write(`Your Total Bill Was = ${total4} Tk💸💸` + "<br>" + "<br>");
 const billCheck = function (day) {
     if (10>=day){
         const sum1= day*100;
-        document.write(`Your Bil was ${sum1} Tk💸💸` + "<br>");
+        document.write(`Your Bil was ${sum1} Tk💸💸` + "<br>" + "<br>");
     }
     
     if (11<=day && 20>=day){
         const sum2 = ((day-10)*80) + 1000;
-        document.write(`Your Bill Was ${sum2} Tk💸💸` + "<br>")
+        document.write(`Your Bill Was ${sum2} Tk💸💸` + "<br>" + "<br>")
     }
     
     if (21<=day){
@@ -30,7 +30,7 @@ const billCheck = function (day) {
     }
 }
 
-billCheck(21);
+billCheck(15.2);
 
 // --end--
 function longestWord(array) {
@@ -42,5 +42,5 @@ function longestWord(array) {
  })
 return longest;
  }
- const bigName=(longestWord(["KeepRolling","Rabbi","Amrnamholohabu"]));
+ const bigName=(longestWord(["KeepRolling","Rabbi","Am"]));
  document.write(`Its A Big Name From This Array "${bigName}"😊😊;` + "<br>" + "<br>")
