@@ -20,7 +20,7 @@ const billCheck = function (day) {
     }
     
     if (11<=day && 20>=day){
-        const sum2 = ((day-10)*80) + 1000;
+        const sum2 = ((day-10)*80) +1000;
         document.write(`Your Bill Was ${sum2} Tk💸💸` + "<br>" + "<br>")
     }
     
@@ -43,4 +43,20 @@ function longestWord(array) {
 return longest;
  }
  const bigName=(longestWord(["KeepRolling","Rabbi","Am"]));
- document.write(`Its A Big Name From This Array "${bigName}"😊😊;` + "<br>" + "<br>")
+ document.write(`Its A Big Name From This Array "${bigName}"😊😊 And Length Is ${bigName.length};` + "<br>" + "<br>")
+
+
+//  -----object
+//  const sayman= {
+//     name : "KeepRolling",
+//     age : 2021-2001,
+//     job : "Student",
+//     location : "Rangpur",
+//   }
+//   const data = prompt("What You Know About Sayman? Choose Between name,age,job,location");
+//   if(sayman[data]){
+//     document.write(sayman[data]);
+//   } else{
+//     document.write("Wrong Keyword!! Choose Between name,age,job,location" )
+//   }
+    
