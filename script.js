@@ -33,6 +33,7 @@ const billCheck = function (day) {
 billCheck(15.2);
 
 // --end--
+const bigName=(longestWord(["KeepRolling","Rabbi","AmzonShoppingisAwsome"]));
 function longestWord(array) {
     let longest = "";
    array.map(function (str) {
@@ -42,7 +43,7 @@ function longestWord(array) {
  })
 return longest;
  }
- const bigName=(longestWord(["KeepRolling","Rabbi","Am"]));
+
  document.write(`Its A Big Name From This Array "${bigName}"😊😊 And Length Is ${bigName.length};` + "<br>" + "<br>")
 
 
@@ -59,4 +60,35 @@ return longest;
 //   } else{
 //     document.write("Wrong Keyword!! Choose Between name,age,job,location" )
 //   }
+    // for (let rep=1; rep<=5;rep++){
+    //     console.log(`Wlcome Sayman Rabbi For Your New Joureny ${rep}`);
+    // }
+
     
+    const find=(findTheLongestWord(`KeepRolling,Rabbi,AmzonShoppingisAwsome`));
+     function findTheLongestWord(str){
+         var words =  str.split(",");
+         var longest = "";
+        
+          for ( var word of words){
+              if (word.length > longest.length)
+              longest=word;
+          }
+          return longest;
+     }
+    
+    
+     document.write(`Its A Big Name From This Array "${find}}"😊😊 And Length Is ${find.length};` + "<br>" + "<br>")
+
+
+
+
+    //        function longestWord(array) {
+    //     let longest = "";
+//    array.map(function (str) {
+//       if (str.length > longest.length){
+//     longest = str;
+// }
+//  })
+// return longest;
+//  }
